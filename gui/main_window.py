@@ -492,7 +492,7 @@ class MainWindow(QMainWindow):
             f"About {config.APP_NAME}",
             f"""<h2>{config.APP_NAME}</h2>
             <p>Version {config.APP_VERSION}</p>
-            <p>A modern Markdown editor with live preview.</p>
+            <p>A modern, lightweight Markdown editor with live preview.</p>
             <p>Features:</p>
             <ul>
                 <li>Live preview with syntax highlighting</li>

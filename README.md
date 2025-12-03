@@ -1,4 +1,4 @@
-# Markdown Renderer
+# MDRender
 
 A modern, feature-rich Python desktop application for editing and rendering Markdown files with live preview, syntax highlighting, and export capabilities.
 

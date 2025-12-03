@@ -1,5 +1,5 @@
 """
-Main entry point for Markdown Renderer application
+Main entry point for MDRender application
 """
 import sys
 from PyQt6.QtWidgets import QApplication

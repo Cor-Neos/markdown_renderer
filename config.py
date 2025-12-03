@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 
 # Application Info
-APP_NAME = "Markdown Renderer"
+APP_NAME = "MDRender"
 APP_VERSION = "1.0.0"
 APP_AUTHOR = "Your Name"
 

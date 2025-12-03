@@ -1,6 +1,6 @@
-# Welcome to Markdown Renderer! 🎉
+# Welcome to MDRender! 🎉
 
-This is a demonstration file showing the capabilities of the Markdown Renderer application.
+This is a demonstration file showing the capabilities of the MDRender application.
 
 ## Table of Contents
 
@@ -219,6 +219,6 @@ This document demonstrates:
 
 ---
 
-**Created with Markdown Renderer v1.0.0**
+**Created with MDRender v1.0.0**
 
 *Happy writing! 📝✨*
