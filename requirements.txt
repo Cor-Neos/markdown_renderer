@@ -21,3 +21,6 @@ pyyaml>=6.0
 
 # Optional Git Integration
 gitpython>=3.1.40
+
+# Build Tools (for creating executable)
+pyinstaller>=6.0.0

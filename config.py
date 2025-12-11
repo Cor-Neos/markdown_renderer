@@ -2,6 +2,7 @@
 Configuration settings for Markdown Renderer
 """
 import os
+import sys
 from pathlib import Path
 
 # Application Info
@@ -9,12 +10,18 @@ APP_NAME = "MDRender"
 APP_VERSION = "1.0.0"
 APP_AUTHOR = "Your Name"
 
-# Directories
-BASE_DIR = Path(__file__).parent
+# Directories - handle both development and PyInstaller frozen app
+if getattr(sys, 'frozen', False):
+    # Running as compiled executable
+    BASE_DIR = Path(sys._MEIPASS)
+else:
+    # Running as script
+    BASE_DIR = Path(__file__).parent
+
 RESOURCES_DIR = BASE_DIR / "resources"
 THEMES_DIR = RESOURCES_DIR / "themes"
 TEMPLATES_DIR = RESOURCES_DIR / "templates"
-CONFIG_DIR = Path.home() / ".markdown_renderer"
+CONFIG_DIR = Path.home() / ".mdrender"
 
 # Ensure config directory exists
 CONFIG_DIR.mkdir(exist_ok=True)
